@@ -1,50 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        header {
-            background: rgba(O,O,O,O.7);
-            width: 100%;
-            position: fixed;
-            z-index: 100;
-        }
-        nav {
-            float: left;
-        }
-        nav ul {
-            list-style: none;
-            overflow: hidden;
-        }
-        nav ul li {
-            float: left;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-        }
-        nav ul li a {
-            display: block:
-            padding: 20px:
-            color: #ff;
-            text-decoration: none;
-        }
-        nav ul li:hover {
-            background: #eca023:
-        }
-    </style>
+    <title>Indice</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		nav ul {
+			list-style-type: none;
+			/* Estilos adicionales para tu menú */
+		}
+
+		nav ul li {
+			display: inline;
+			margin-right: 10px;
+			/* Otros estilos para los elementos de la lista */
+		}
+		.bar-item{
+			padding:8px 16px;
+			float:left;
+			width:auto;
+			border:none;
+			display:block;
+			outline:0
+		}
+		.button:hover{
+			color:#000!important;
+			background-color:#ccc!important
+		}
+	</style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Tutoriales</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Bootcamps</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header>Encabezado</header>
+	
+	<!-- Sidebar -->
+	<div style="width:10%">
+		<aside>
+			<h3>Barra Lateral</h3>
+			<nav>
+				<ul>
+					<li><a class="bar-item button" href="navegacion.html">Inicio</a></li>
+					<li><a class="bar-item button" href="contacto.html">Contacto</a></li>
+					<li><a class="bar-item button" href="logo.html">Logo</a></li>
+				</ul>
+			</nav>
+		</aside>
+	</div>
+
+	<!-- Page Content -->
+	<div style="margin-left:25%">
+		<main>
+			<section>
+				<h2>Sección 1</h2>
+				<article>
+					<h3>Innovaciones en Arquitectura</h3>
+					<p>Descubre las últimas tendencias en arquitectura sostenible y diseño innovador. Exploramos nuevas técnicas y materiales que están cambiando el panorama arquitectónico.</p>
+				</article>
+				<article>
+					<h3>Tendencias en Desarrollo de Software</h3>
+					<p>Un vistazo a las tendencias emergentes en el desarrollo de software, incluyendo la inteligencia artificial, el aprendizaje automático y el desarrollo ágil.</p>
+				</article>
+				<article>
+					<h3>Historia de la Arquitectura</h3>
+					<p>Un viaje a través del tiempo explorando los estilos arquitectónicos más influyentes desde la antigüedad hasta la era moderna.</p>
+				</article>
+				<article>
+					<h3>Herramientas Modernas para Desarrolladores</h3>
+					<p>Una revisión de las herramientas y tecnologías más recientes que están revolucionando el desarrollo de software, desde frameworks hasta entornos de desarrollo integrados.</p>
+				</article>
+				<article>
+					<h3>Sostenibilidad en Diseño Urbano</h3>
+					<p>Exploramos cómo el diseño urbano puede contribuir a ciudades más sostenibles y ecológicas, y qué papel juega la arquitectura en la creación de espacios urbanos verdes.</p>
+				</article>
+
+
+			</section>
+			<section>
+				<h2>Sección 2</h2>
+					<article>
+						<h3>Innovaciones en Arquitectura</h3>
+						<p>Descubre las últimas tendencias en arquitectura sostenible y diseño innovador. Exploramos nuevas técnicas y materiales que están cambiando el panorama arquitectónico.</p>
+					</article>
+					<article>
+						<h3>Tendencias en Desarrollo de Software</h3>
+						<p>Un vistazo a las tendencias emergentes en el desarrollo de software, incluyendo la inteligencia artificial, el aprendizaje automático y el desarrollo ágil.</p>
+					</article>
+					<article>
+						<h3>Historia de la Arquitectura</h3>
+						<p>Un viaje a través del tiempo explorando los estilos arquitectónicos más influyentes desde la antigüedad hasta la era moderna.</p>
+					</article>
+					<article>
+						<h3>Herramientas Modernas para Desarrolladores</h3>
+						<p>Una revisión de las herramientas y tecnologías más recientes que están revolucionando el desarrollo de software, desde frameworks hasta entornos de desarrollo integrados.</p>
+					</article>
+					<article>
+						<h3>Sostenibilidad en Diseño Urbano</h3>
+						<p>Exploramos cómo el diseño urbano puede contribuir a ciudades más sostenibles y ecológicas, y qué papel juega la arquitectura en la creación de espacios urbanos verdes.</p>
+					</article>
+			</section>
+		</main>
+	</div>
+    <footer>Pie de Página</footer>
 </body>
 </html>
